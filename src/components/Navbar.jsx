@@ -4,7 +4,7 @@ function Navbar() {
   // Generate dynamic forms with the help of JSON
 
   return (
-    <nav className="bg-white mb-10 shadow-lg">
+    <nav className="bg-white mb-10 shadow-xl">
       <div className="flex justify-between items-center lg:px-20 h-[60px]">
         <h1 className="font-poppins font-bold pl-4 lg:pl-0 mr-4 text-xl lg:text-2xl">
           Formulator

@@ -22,10 +22,10 @@ function UserInformationForm({ props }) {
         className="flex flex-col rounded-sm lg:w-[550px] w-[320px] justify-center py-5 lg:py-8 px-7 lg:px-14 shadow-2xl bg-red-100"
       >
         <h1 className="text-center text-red-400 text-3xl font-hind font-bold">
-          Welcome!
+          Welcome back!
         </h1>
         <h1 className="text-center text-xl font-hind text-black font-bold">
-          JOIN OUR NEWSLETTER
+          LOGIN HERE
         </h1>
         {userInfo.map((user) => (
           <div key={user} className="flex flex-col my-1 lg:my-2">
