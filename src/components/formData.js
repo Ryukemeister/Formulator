@@ -3,7 +3,7 @@ export const formDataFields = {
     sections: [
       {
         order: 1,
-        section_title: "Welcome!",
+        section_title: "Get all weekly updates",
         section_subtitle: "Join our newsletter",
         fields: [
           {

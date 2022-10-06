@@ -21,8 +21,8 @@ function UserInformationForm({ props }) {
         onSubmit={handleSubmit}
         className="flex flex-col rounded-sm lg:w-[550px] w-[320px] justify-center py-5 lg:py-8 px-7 lg:px-14 shadow-2xl bg-red-100"
       >
-        <h1 className="text-center text-red-400 text-3xl font-hind font-bold">
-          Welcome back!
+        <h1 className="text-center text-red-400 text-2xl lg:text-3xl font-hind font-bold">
+          Welcome back
         </h1>
         <h1 className="text-center text-xl font-hind text-black font-bold">
           LOGIN HERE

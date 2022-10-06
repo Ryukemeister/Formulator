@@ -15,7 +15,7 @@ function BasicInformationForm() {
         {formDataFields.form.sections.map((dataField) => {
           return (
             <div className="flex flex-col mx-8 lg:mx-0" key={dataField.order}>
-              <h1 className="text-center text-red-400 text-3xl font-hind font-bold">
+              <h1 className="text-center text-red-400 text-2xl lg:text-3xl font-hind font-bold">
                 {dataField.section_title}
               </h1>
               <h1 className="text-center text-xl font-hind text-black font-bold">
