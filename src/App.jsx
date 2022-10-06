@@ -22,7 +22,7 @@ function App() {
       console.error(err);
     }
   };
-  console.log(userInfo);
+  // console.log(userInfo);
 
   useEffect(() => {
     getUserData();
